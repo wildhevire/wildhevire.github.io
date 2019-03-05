@@ -1,0 +1,56 @@
+
+#container{
+	
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -65%);
+	text-align: center;
+	font-color : #eeee;
+
+}
+#avatar{
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	
+	
+}
+#nickname{
+	font-weight: 400;
+}	
+#konten{
+	opacity: 0;
+	transform: translate(0, -65px);
+}
+
+body{
+	margin: 0;
+	font-family: 'PingHei', 'PingFang SC', Helvetica Neue, 'Work Sans', 'Hiragino Sans GB', 'Microsoft YaHei', SimSun, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  opacity: 1;
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  -o-transition: all .15s linear;
+  -ms-transition: all .15s linear;
+  transition: all .15s linear;
+  color: #424242;
+}
+
+a:hover, a:active {
+  color: #ff3fa6;
+}
+
+.links li{
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+	margin: 0 5px;
+}
