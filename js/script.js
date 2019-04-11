@@ -6,7 +6,11 @@ function _parallax(){
 	s.style.transform = "translate(0,0)";	
 }
 
-// Loading hasn't finished yet
   window.onload = function(){
   	_parallax();
   }
+
+function gelapIt(){
+	document.body.classList.toggle('gelap');
+	document.documentElement.style.transition = 'all .20s ease-in-out';
+}

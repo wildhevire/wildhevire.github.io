@@ -1,4 +1,23 @@
+body{
+	--bg: #FCFCFC;
+    --teks: #333333;
+    ---nick : #333333;
+}
 
+.gelap{
+	--bg: #333333;
+    --nick: #ff3fa6;
+    --teks:#B5B5B5;
+ 
+}
+
+body{
+	background-color: var(--bg);
+	color: var(--teks);
+	margin: 0;
+	font-family: 'PingHei', 'PingFang SC', Helvetica Neue, 'Work Sans', 'Hiragino Sans GB', 'Microsoft YaHei', SimSun, sans-serif;
+
+}
 #container{
 	
 	margin: 0;
@@ -19,15 +38,20 @@
 }
 #nickname{
 	font-weight: 400;
+	color : var(--nick);
+
 }	
 #konten{
 	opacity: 0;
 	transform: translate(0, -65px);
+	color :var(--teks);
 }
 
-body{
-	margin: 0;
-	font-family: 'PingHei', 'PingFang SC', Helvetica Neue, 'Work Sans', 'Hiragino Sans GB', 'Microsoft YaHei', SimSun, sans-serif;
+#gelap-button{
+	left: 2rem;
+	top: 2rem;
+  	height: 3rem;
+  	width: 3rem;
 }
 
 a {
@@ -41,7 +65,7 @@ a:link, a:visited {
   -o-transition: all .15s linear;
   -ms-transition: all .15s linear;
   transition: all .15s linear;
-  color: #424242;
+  color: var(--teks);
 }
 
 a:hover, a:active {
